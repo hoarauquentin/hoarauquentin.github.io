@@ -1,0 +1,21 @@
+name: "quentinhoarau"
+title: "Quentin Hoarau"
+theme: VB_website.css
+description: |
+  Quentin Hoarau
+output_dir: "docs"
+base_url: https://quentinhoarau.github.io/
+navbar:
+  # logo: "one_up.png"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Code"
+      href: projects.html
+    #- text: "CV"
+    #  href: "CV_quentinhoarau.pdf"
+  # source_url: https://github.com/quentinhoarau/vincentbagilet_website
+  search: false
+output: distill::distill_article
