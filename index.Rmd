@@ -1,0 +1,24 @@
+---
+title: "Quentin Hoarau"
+image: "images/photo_site_round.png"
+angle: 130
+site: distill::distill_website
+links:
+  - label: '`r fontawesome::fa("envelope")` Email'
+    url: "mailto:vincent.bagilet@columbia.edu"
+  - label: '`r fontawesome::fa("github")` GitHub'
+    url: "https://github.com/quentinhoarau"
+output:
+  postcards::trestles
+---
+
+
+
+I am an assistant professor at Université Paris-Nanterre. I am also an associate researcher at the Chair Energy & Prosperity.
+
+
+Research interests:
+- Main: environmental & energy economics
+- Secondary: industrial organization,  applied microeconomics, public economics
+
+My current work focuses on the effects of environmental policies in the automobile sector.
