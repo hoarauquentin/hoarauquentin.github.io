@@ -1,0 +1,23 @@
+---
+title: "Research"
+description: | 
+  #**Research interests:** Environmental economics, agricultural economics, and climate change related issues (impacts, adaptation and mitigation)
+
+ # **Tools:** Applied modeling, theoretical microeconomics, systematic literature review
+---
+
+## Work in progress
+* azeaze
+
+
+## Working papers
+
+
+## Publications
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
