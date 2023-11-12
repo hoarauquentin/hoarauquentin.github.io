@@ -5,6 +5,8 @@ description: |
   Quentin Hoarau
 output_dir: "docs"
 base_url: https://quentinhoarau.github.io/
+repository_url: https://github.com/qwaro/quentinhoarau.github.io/
+creative_commons: CC BY
 navbar:
   # logo: "one_up.png"
   right:
