@@ -1,15 +1,14 @@
 ---
 title: "Quentin Hoarau"
-image: "images/photo_site_round.png"
-angle: 130
+image: "images/photo_qh.jpg"
 site: distill::distill_website
 links:
-  - label: '`r fontawesome::fa("envelope")` Email'
-    url: "mailto:vincent.bagilet@columbia.edu"
-  - label: '`r fontawesome::fa("github")` GitHub'
+  - label: Google Scholar
+    url: "https://scholar.google.com/citations?user=FEQl2iIAAAAJ&hl=us"
+  - label: GitHub
     url: "https://github.com/quentinhoarau"
 output:
-  postcards::trestles
+  postcards::jolla
 ---
 
 

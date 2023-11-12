@@ -1,6 +1,6 @@
 name: "quentinhoarau"
 title: "Quentin Hoarau"
-theme: VB_website.css
+theme: postcards.css
 description: |
   Quentin Hoarau
 output_dir: "docs"

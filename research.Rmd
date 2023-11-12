@@ -1,9 +1,9 @@
 ---
 title: "Research"
 description: | 
-  #**Research interests:** Environmental economics, agricultural economics, and climate change related issues (impacts, adaptation and mitigation)
+  #**Research interests:** Energy economics, environmental economics
 
- # **Tools:** Applied modeling, theoretical microeconomics, systematic literature review
+ # **Tools:** 
 ---
 
 ## Work in progress
