@@ -26,10 +26,7 @@ description: |
 
 * Distributive effects of the French Feebate on cars | with Ariane Bousquet (Paris-Saclay) and Maria-Eugenia Sanin (Paris-Saclay)
 
-* When do consumers want to opt-in to real-time pricing for electricity? | with Tim Schittekatte (MIT) and Olivier Massol (IFPEN)
-
-* Refining and the oil curse | with Olivier Massol (IFPEN) and Arthur Thomas (ENSAE)
-
+* Housing prices and local externalities of green technologies
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
