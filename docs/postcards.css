@@ -34,6 +34,16 @@ html {
   --body-font:       "Bitter", sans-serif;
   --navbar-font:     "Amiri", serif;
 }
+.distill-article {
+  max-width: 800px; /* Set the maximum width of the content */
+  margin: 0 auto;   /* Center the content by adding left and right margins */
+}
+
+/* Example: Update the selector if needed */
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 /*-- ARTICLE METADATA --*/
 d-byline {
@@ -62,17 +72,17 @@ d-appendix {
 
 .distill-site-header {
   --title-size:       21px;    
-  --text-color:       #2e8b57; /* edited */
-  --text-size:        18px;
-  --hover-color:      #1e442d; /* edited */
-  --bkgd-color:       #bcd8c4; /* edited */
+  --text-color:       #0d0d0e; /* Light Blue Color */
+  --text-size:        24px;   /* Increase the text size */
+  --hover-color:      #177db4;
+  --bkgd-color:       #6895e8; /* Light Blue Background Color */
 }
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --bkgd-color:       #0c9ce3;
 }
 
 /*-- Additional custom styles --*/
@@ -86,6 +96,6 @@ ul > li::marker {
 
 /* Change link appearance */
 d-article a {
-  border-bottom: 2px solid #bcd8c4;
+  border-bottom: 2px solid #bcc2d8;
   text-decoration: none;
 }
