@@ -11,6 +11,6 @@ description: |
 ### European Economics (L3), Université Paris-Nanterre
 ### Tutorials in econometrics and GIS (L3) , Université Paris-Nanterre
 
-%# Past teaching
+
  
   
