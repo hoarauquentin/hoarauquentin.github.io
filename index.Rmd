@@ -6,18 +6,16 @@ links:
   - label: Google Scholar
     url: "https://scholar.google.com/citations?user=FEQl2iIAAAAJ&hl=us"
   - label: GitHub
-    url: "https://github.com/quentinhoarau"
+    url: "https://github.com/hoarauquentin"
 output:
   postcards::jolla
 ---
 
 
+Wecome to my website !
 
-I am an assistant professor at Université Paris-Nanterre. I am also an associate researcher at the Chair Energy & Prosperity.
 
 
-Research interests:
-- Main: environmental & energy economics
-- Secondary: industrial organization,  applied microeconomics, public economics
+I am an assistant professor at Université Paris-Nanterre. 
 
-My current work focuses on the effects of environmental policies in the automobile sector.
+My research interests are environmental & energy economics. 

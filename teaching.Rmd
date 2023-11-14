@@ -8,10 +8,9 @@ description: |
 ### Energy Economics (M2), Université Paris-Nanterre
 ### Resource Economics (M2), Université Paris-Nanterre
 ### Industrial organization (M1), Master EEET, Université Paris-Nanterre
-### Tutorials in econometrics and GIS (L3) , Université Paris-Nanterre
 ### European Economics (L3), Université Paris-Nanterre
+### Tutorials in econometrics and GIS (L3) , Université Paris-Nanterre
 
-# Past teaching
-
-azeaze
+%# Past teaching
+ 
   
