@@ -4,28 +4,28 @@ description: |
 ---
 
 ## Publications
-* Coordination of sectoral climate policies and life cycle emissions | 2023 | with Guy Meunier | Resource and Energy Economics 
+* *Coordination of sectoral climate policies and life cycle emissions* | 2023 | with Guy Meunier | **Resource and Energy Economics**
 
-* An assessment of the European regulation on battery recycling for electric vehicles | 2022 | with Etienne Lorang | Energy Policy 
+* *An assessment of the European regulation on battery recycling for electric vehicles* | 2022 | with Etienne Lorang | **Energy Policy** 
 
-* Network tariff design with prosumers and electromobility: who wins, who loses? | 2019 | with Yannick Perez | Energy Economics  
+* *Network tariff design with prosumers and electromobility: who wins, who loses?* | 2019 | with Yannick Perez | **Energy Economics**
 
-* Interactions between electric mobility and photovoltaic generation: A review | 2018 | with Yannick Perez | Renewable and Sustainable Energy Reviews 94, 510-522 
+* *Interactions between electric mobility and photovoltaic generation: A review* | 2018 | with Yannick Perez | **Renewable and Sustainable Energy Reviews** 
 
-* Americium mono recycling in PWR:  A step towards transmutation | 2017 | with A-A Zakari-Issoufou, Xavier Doligez, Alice Somaini, Sylvain David, Sandra Bouneau, Fanny Courtin, Baptiste Leniau, Nicolas Thiollière, Baptiste Mouginot, Adrien Bidaud, Nicolas Capellan, Olivier Meplan, Alexis Nuttin, Robert Sogbadji | Annals of Nuclear Energy 102, 220-230 
+* *Americium mono recycling in PWR:  A step towards transmutation* | 2017 | with A-A Zakari-Issoufou, Xavier Doligez, Alice Somaini, Sylvain David, Sandra Bouneau, Fanny Courtin, Baptiste Leniau, Nicolas Thiollière, Baptiste Mouginot, Adrien Bidaud, Nicolas Capellan, Olivier Meplan, Alexis Nuttin, Robert Sogbadji | **Annals of Nuclear Energy**
 
-* Lack of critical slowing down suggests that financial meltdowns are not critical transitions, yet rising variability could signal systemic risk | 2016 | with Vishwesha Guttal, Srinivas Raghavendra, Nikunj Goel  | PloS one, 11(1), e0144198. 
+* *Lack of critical slowing down suggests that financial meltdowns are not critical transitions, yet rising variability could signal systemic risk* | 2016 | with Vishwesha Guttal, Srinivas Raghavendra, Nikunj Goel  | **PloS one**
 
 
 ## Working papers
 
  
 
-* Srapping subsidies in France: an assessment 
+* *Srapping subsidies in France: an assessment* 
 
-* Distributive effects of the French Feebate on cars | with Ariane Bousquet (Paris-Saclay) and Maria-Eugenia Sanin (Paris-Saclay)
+* *Distributive effects of the French Feebate on cars* | with Ariane Bousquet (Paris-Saclay) and Maria-Eugenia Sanin (Paris-Saclay)
 
-* Housing prices and local externalities of green technologies
+* *Housing prices and local externalities of green technologies*
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
