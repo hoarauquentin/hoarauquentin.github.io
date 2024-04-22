@@ -5,12 +5,12 @@ description: |
 
 # Current teaching
 
-### Seminar on mobility (M2), CentraleSupelec
-### Energy Economics (M2), Université Paris-Nanterre
-### Resource Economics (M2), Université Paris-Nanterre
+### Research seminar on mobility (M2), Master EEET, CentraleSupelec
+### Energy Economics (M2),  Master OMERR, Université Paris-Nanterre
+### Resource Economics (M1), Master EEET, Université Paris-Nanterre
 ### Industrial Organization (M1), Master EEET, Université Paris-Nanterre
 ### European Economics (L3), Université Paris-Nanterre
-### Tutorials in Econometrics and GIS (L3) , Université Paris-Nanterre
+### Tutorials in Econometrics and GIS (L3), Université Paris-Nanterre
 
 
  
