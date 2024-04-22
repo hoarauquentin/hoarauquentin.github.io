@@ -7,6 +7,8 @@ links:
     url: "https://scholar.google.com/citations?user=FEQl2iIAAAAJ&hl=us"
   - label: GitHub
     url: "https://github.com/hoarauquentin"
+  - label : EconomiX
+    url: "https://economix.fr/fr/membre/hoarau-quentin"
 output:
   postcards::jolla
 ---
