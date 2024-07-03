@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: | 
+description: |                                    
 ---
 
 ## Publications
@@ -19,7 +19,7 @@ description: |
 
 ## Working papers
 
- 
+
 
 * *Car replacement subsidies and the used car market* 
 
