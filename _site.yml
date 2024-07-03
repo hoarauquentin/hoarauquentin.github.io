@@ -6,6 +6,10 @@ description: |
 output_dir: "docs"
 base_url: https://hoarauquentin.github.io/
 #creative_commons: CC BY
+
+google-site-verification: google222b63a479fdb475.html
+
+
 navbar:
   # logo: "one_up.png"
   right:
@@ -21,4 +25,4 @@ navbar:
   search: false
 output: distill::distill_article
 
-google-site-verification: google222b63a479fdb475.html
+#google-site-verification: google222b63a479fdb475.html
