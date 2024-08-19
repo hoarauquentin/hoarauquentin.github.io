@@ -1,24 +1,23 @@
 name: "quentinhoarau"
 title: "Quentin Hoarau"
-theme: postcards.css
+theme: postcards.css  # Ensure the correct path to this file
 description: |
   Quentin Hoarau
-output_dir: "docs"
-base_url: https://hoarauquentin.github.io/
-#creative_commons: CC BY
-
+output_dir: "docs"  # Ensure GitHub Pages is set to use 'docs' as the source
+base_url: https://hoarauquentin.github.io/  # Adjust if necessary
 
 navbar:
-  # logo: "one_up.png"
+  # logo: "one_up.png"  # Uncomment if needed and ensure the correct path
   right:
     - text: "About"
-      href: index.html
+      href: index.html  # Check the correct path
     - text: "Research"
-      href: research.html
+      href: research.html  # Check the correct path
     - text: "Teaching"
-      href: teaching.html
+      href: teaching.html  # Check the correct path
     #- text: "CV"
-    #  href: "CV_quentinhoarau.pdf"
-  # source_url: https://github.com/quentinhoarau/
+    #  href: "CV_quentinhoarau.pdf"  # Uncomment if needed
+  # source_url: https://github.com/quentinhoarau/  # Uncomment if you want a source link
   search: false
-output: distill::distill_article
+
+output: distill::distill_article  # Ensure you're using the 'distill' package
