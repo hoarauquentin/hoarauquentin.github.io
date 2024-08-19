@@ -21,3 +21,8 @@ navbar:
   search: false
 
 output: distill::distill_article  # Ensure you're using the 'distill' package
+
+
+# Include custom HTML in header
+includes:
+  in_header: "_header.html"
