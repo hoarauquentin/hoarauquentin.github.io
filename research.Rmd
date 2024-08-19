@@ -25,4 +25,8 @@ description: |
 
 * *Distributive effects of the French Feebate on cars* 
 
+* *Energy transition with Cournot competition* | with Jean-Pierre Ponssard 
+
 * *Housing prices and local externalities of green technologies*
+
+
