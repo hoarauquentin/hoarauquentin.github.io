@@ -26,7 +26,3 @@ description: |
 * *Distributive effects of the French Feebate on cars* 
 
 * *Housing prices and local externalities of green technologies*
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
