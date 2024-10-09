@@ -17,7 +17,7 @@ description: |
 * *Lack of critical slowing down suggests that financial meltdowns are not critical transitions, yet rising variability could signal systemic risk* | 2016 | with Vishwesha Guttal, Srinivas Raghavendra, Nikunj Goel  | **PloS one**
 
 
-## Working papers
+## Working in progress
 
 
 
