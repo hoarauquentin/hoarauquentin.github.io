@@ -1,11 +1,13 @@
 name: "quentinhoarau"
 title: "Quentin Hoarau"
 theme: postcards.css  # Ensure the correct path to this file
+author: Quentin Hoarau
 description: |
-  Quentin Hoarau
+  Quentin Hoarau's personal website
 output_dir: "docs"  # Ensure GitHub Pages is set to use 'docs' as the source
 base_url: https://hoarauquentin.github.io/  # Adjust if necessary
-
+google_analytics: "G-5755VEJCBR"  # Replace with your actual Google Analytics ID
+creative_commons: CC BY
 navbar:
   # logo: "one_up.png"  # Uncomment if needed and ensure the correct path
   right:
@@ -21,8 +23,3 @@ navbar:
   search: false
 
 output: distill::distill_article  # Ensure you're using the 'distill' package
-
-
-# Include custom HTML in header
-includes:
-  in_header: "_header.html"
