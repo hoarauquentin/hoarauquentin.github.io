@@ -29,13 +29,9 @@ description: |
 
 * *Local electoral impacts of wind power in France* | with Loic Lebrec and Nicolas Hatem
 
+
 ## Working in progress
 
-
-
-
-
-* *Housing prices and local externalities of green technologies*
 
 * *Disentangling abatement strategies of EU car manufacturers* | with Leo-Paul Kassab (Paris Dauphine)
 
