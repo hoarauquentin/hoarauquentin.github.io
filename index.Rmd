@@ -4,6 +4,8 @@ description: |
 image: "images/photo_qh.jpg"
 site: distill::distill_website
 links:
+  - label: Email
+    url: "mailto:qhoarau@parisnanterre.fr"
   - label: Google Scholar
     url: "https://scholar.google.com/citations?user=FEQl2iIAAAAJ&hl=en"
   - label: ORCID
