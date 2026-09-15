@@ -4,6 +4,8 @@ description: |
 ---
 
 ## Publications
+* *Distributional incidence of car feebates with spillovers to the second-hand market* | 2026 | **Transportation Research Part A: Policy and Practice**
+
 * *Coordination of sectoral climate policies and life cycle emissions* | 2023 | with Guy Meunier | **Resource and Energy Economics**
 
 * *An assessment of the European regulation on battery recycling for electric vehicles* | 2022 | with Etienne Lorang | **Energy Policy** 
@@ -17,16 +19,27 @@ description: |
 * *Lack of critical slowing down suggests that financial meltdowns are not critical transitions, yet rising variability could signal systemic risk* | 2016 | with Vishwesha Guttal, Srinivas Raghavendra, Nikunj Goel  | **PloS one**
 
 
+## Working Papers
+
+* *Car replacement subsidies and the used car market* 
+
+* *Imperfect Competition and the Adoption of Clean Technology: The Case of CCS in Cement* | with Jean-Pierre Ponssard 
+
+* *Closing the Emission Gap: EU CO2 Standards and Plug-in Hybrid Vehicles* | with Ariane Bousquet and Maria-Eugenia Sanin 
+
+* *Local electoral impacts of wind power in France* | with Loic Lebrec and Nicolas Hatem
+
 ## Working in progress
 
 
 
-* *Car replacement subsidies and the used car market* 
 
-* *Distributive effects of the French Feebate on cars* 
-
-* *Energy transition with Cournot competition* | with Jean-Pierre Ponssard 
 
 * *Housing prices and local externalities of green technologies*
 
+* *Disentangling abatement strategies of EU car manufacturers* | with Leo-Paul Kassab (Paris Dauphine)
+
+* *Chinese electric vehicles and EU tariff policy*
+
+* *Local impacts of renewable energy on taxation*
 
