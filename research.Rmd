@@ -1,41 +1,194 @@
 ---
 title: "Research"
-description: |                                    
+description: |
+  Publications and working papers by Quentin Hoarau on environmental and energy
+  economics: car feebates and second-hand markets, electric vehicles, battery
+  recycling, network tariffs, climate policy coordination and renewable energy.
 ---
 
+My research is in **environmental and energy economics**, with a focus on the energy
+transition in the **automobile sector** and on the deployment of **renewable energy**.
+
 ## Publications
-* *Distributional incidence of car feebates with spillovers to the second-hand market* | 2026 | **Transportation Research Part A: Policy and Practice**
 
-* *Coordination of sectoral climate policies and life cycle emissions* | 2023 | with Guy Meunier | **Resource and Energy Economics**
+### Distributional incidence of car feebates with spillovers to the second-hand market
+*2026* — **Transportation Research Part A: Policy and Practice**, 105222.
+[[DOI](https://doi.org/10.1016/j.tra.2026.105222)] · [[SSRN working paper](https://doi.org/10.2139/ssrn.5869438)]
 
-* *An assessment of the European regulation on battery recycling for electric vehicles* | 2022 | with Etienne Lorang | **Energy Policy** 
+<details>
+<summary>Abstract</summary>
+This paper studies the distributional incidence of car feebates — schemes that subsidise
+clean vehicles and tax polluting ones — accounting for the spillovers they generate on
+the second-hand car market. *(Abstract to be completed from the published version.)*
+</details>
 
-* *Network tariff design with prosumers and electromobility: who wins, who loses?* | 2019 | with Yannick Perez | **Energy Economics**
+### Coordination of sectoral climate policies and life cycle emissions
+*2023*, with Guy Meunier — **Resource and Energy Economics**, 74, 101359.
+[[DOI](https://doi.org/10.1016/j.reseneeco.2023.101359)] · [[Open access PDF](https://hal.inrae.fr/hal-04112936v1/document)]
 
-* *Interactions between electric mobility and photovoltaic generation: A review* | 2018 | with Yannick Perez | **Renewable and Sustainable Energy Reviews** 
+<details>
+<summary>Abstract</summary>
+Drastically reducing greenhouse gas emissions involves numerous specific actions in each
+sector of the economy. The costs and abatement potential of these measures are
+interdependent because of sectoral linkages. For instance, the carbon footprint of
+electric vehicles depends on the electricity mix. This issue has received large attention
+in the literature on Life Cycle Assessments (LCA). This paper analyzes how life cycle
+considerations should be integrated into policy design. We model a partial equilibrium
+with two vertically connected sectors, an upstream (e.g. electricity) and a downstream
+(e.g. transportation) one. In each sector, a dirty and a clean technology are available.
+The clean downstream technology consumes the upstream good and may thus shift emissions
+to the upstream sector. Our main contribution is to detail how optimal subsidies on clean
+technologies should incorporate life cycle emissions when carbon pricing is limited. The
+optimal downstream subsidy should be corrected for all external costs generated in the
+upstream sector, not only unpriced pollution but also the fiscal externality due to the
+subsidy to the clean upstream technology. We also analyze the joint optimization of
+upstream and downstream policies. The upstream subsidy should not incorporate features of
+the downstream sector, whereas the downstream optimal subsidy depends upon the upstream
+sector characteristics. All results are illustrated using a calibrated example of the
+electrification of passenger cars.
+</details>
 
-* *Americium mono recycling in PWR:  A step towards transmutation* | 2017 | with A-A Zakari-Issoufou, Xavier Doligez, Alice Somaini, Sylvain David, Sandra Bouneau, Fanny Courtin, Baptiste Leniau, Nicolas Thiollière, Baptiste Mouginot, Adrien Bidaud, Nicolas Capellan, Olivier Meplan, Alexis Nuttin, Robert Sogbadji | **Annals of Nuclear Energy**
+### An assessment of the European regulation on battery recycling for electric vehicles
+*2022*, with Etienne Lorang — **Energy Policy**, 162, 112770.
+[[DOI](https://doi.org/10.1016/j.enpol.2021.112770)] · [[Open access PDF](https://hal.inrae.fr/hal-03727762v1)]
 
-* *Lack of critical slowing down suggests that financial meltdowns are not critical transitions, yet rising variability could signal systemic risk* | 2016 | with Vishwesha Guttal, Srinivas Raghavendra, Nikunj Goel  | **PloS one**
+<details>
+<summary>Abstract</summary>
+This paper investigates the design of a recent regulatory proposal aimed at favoring the
+emergence of a battery recycling industry in Europe. Electric mobility is deemed necessary
+to cut CO2 emissions in the transport sector but the industrial and environmental impacts
+of lithium-ion battery manufacturing are controversial. A recent regulatory proposal from
+the European Commission introduces the obligation to attain a series of minimum thresholds
+of recycled materials for the new batteries to be manufactured after 2030. This paper
+discusses the conditions required for that obligation to be fulfilled. It develops a
+material flow model that projects battery wastes and their recycling potential. Our
+findings indicate that the feasibility of proposed thresholds is not very sensitive to
+changes of material intensities from battery technology shifts, recycling efficiencies, or
+the faster uptake of demand. On the contrary, battery lifetimes are the most crucial
+parameters for recycling potential. We believe that this result could jeopardize avenues
+for extending battery lifetimes such as second-battery usage. Our policy recommendations
+are twofold. First, we recommend lower thresholds to improve the regulation credibility.
+Second, the regulation should integrate other objectives that address the lifetime of
+batteries.
+</details>
 
+### Network tariff design with prosumers and electromobility: who wins, who loses?
+*2019*, with Yannick Perez — **Energy Economics**, 83, 26–39.
+[[DOI](https://doi.org/10.1016/j.eneco.2019.05.009)] · [[Open access PDF](https://hal.science/hal-02265823v1)]
 
-## Working Papers
+<details>
+<summary>Abstract</summary>
+Distributed Energy Resources (DERs), mostly in the form of solar photovoltaic (PV) or
+lithium-ion batteries, and electric vehicles (EVs) are emerging as three disruptive
+innovations in power grids. Recent studies have pointed out the potential synergies between
+these technologies, while others have studied the difficulty to design adequate network
+tariff when some consumers can adopt DERs (prosumers). In this paper, we investigate the
+combined effect of DERs and EVs on grid cost recovery. To study these effects, we formulate
+a non-cooperative game between a regulator that sets tariffs to recover grid costs and the
+four classes of network users depending on whether they are prosumer (resp. EV owners) or
+not. We study how tariff structures and the levels of EV penetration and prosuming affect
+tariffs. First, we find that grid cost recovery concerns caused by load-defecting prosumers
+installing DER can be balanced by the diffusion of EVs in the network. Second, we highlight
+that EVs and DERs adoptions are conflicting through the network tariff design. In
+particular, we find that the more a tariff structure gives incentives for DERs, the less
+beneficial it is for EVs.
+</details>
 
-* *Car replacement subsidies and the used car market* 
+### Interactions between electric mobility and photovoltaic generation: A review
+*2018*, with Yannick Perez — **Renewable and Sustainable Energy Reviews**, 94, 510–522.
+[[DOI](https://doi.org/10.1016/j.rser.2018.06.039)] · [[Open access PDF](https://hal.science/hal-01713968/document)]
 
-* *Imperfect Competition and the Adoption of Clean Technology: The Case of CCS in Cement* | with Jean-Pierre Ponssard 
+<details>
+<summary>Abstract</summary>
+Photovoltaic generation and electric mobility are disruptive technologies in the power and
+transport sectors, and both pose challenges for power grids. The scholarship has focused on
+potential synergies when these two technologies are combined, and recent research shows
+that interactions between photovoltaic generation and electric mobility could decrease the
+overall burden on power grids, and empower one technology with the other's specificities.
+Electric vehicles (EV) could use photovoltaic energy (PV) and benefit from cheap carbon-free
+electricity for charging. In return, PV systems could use the bi-directional flexibility of
+EV batteries to maximize their self-consumption. As these synergies operate, economic
+spillovers from these technologies are expected to improve, thus further leveraging their
+joint deployment. Here we develop a systematic framework to review the various underlying
+conditions for synergy as they have been studied in the literature. It emerges that this
+synergy is driven by technical as well as economic factors. First, it happens in the
+mid-scale spatial configuration (large workplace buildings and charging stations) and less
+obviously at other scales (eg. households, territories) and in technologically diversified
+systems. Second, although under-studied in the literature, the economic context (level of
+cooperation between stakeholders, regulation and policy, etc.) of interactions between PV
+and EV is crucial for successful synergy. Finally, we identify several remaining issues with
+these conditions that warrant further research.
+</details>
 
-* *Closing the Emission Gap: EU CO2 Standards and Plug-in Hybrid Vehicles* | with Ariane Bousquet and Maria-Eugenia Sanin 
+### Americium mono-recycling in PWR: A step towards transmutation
+*2017*, with A.-A. Zakari-Issoufou, Xavier Doligez, Alice Somaini, Sylvain David, Sandra
+Bouneau, Fanny Courtin, Baptiste Leniau, Nicolas Thiollière, Baptiste Mouginot, Adrien
+Bidaud, Nicolas Capellan, Olivier Meplan, Alexis Nuttin and Robert Sogbadji —
+**Annals of Nuclear Energy**, 102, 220–230.
+[[DOI](https://doi.org/10.1016/j.anucene.2016.12.004)]
 
-* *Local electoral impacts of wind power in France* | with Loic Lebrec and Nicolas Hatem
+### Lack of critical slowing down suggests that financial meltdowns are not critical transitions, yet rising variability could signal systemic risk
+*2016*, with Vishwesha Guttal, Srinivas Raghavendra and Nikunj Goel — **PLOS ONE**, 11(1), e0144198.
+[[DOI](https://doi.org/10.1371/journal.pone.0144198)] · [[Open access](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144198)]
 
+<details>
+<summary>Abstract</summary>
+Complex systems inspired analysis suggests a hypothesis that financial meltdowns are abrupt
+critical transitions that occur when the system reaches a tipping point. Theoretical and
+empirical studies on climatic and ecological dynamical systems have shown that approach to
+tipping points is preceded by a generic phenomenon called critical slowing down, i.e. an
+increasingly slow response of the system to perturbations. Therefore, it has been suggested
+that critical slowing down may be used as an early warning signal of imminent critical
+transitions. Whether financial markets exhibit critical slowing down prior to meltdowns
+remains unclear. Here, our analysis reveals that three major US (Dow Jones Index, S&P 500
+and NASDAQ) and two European markets (DAX and FTSE) did not exhibit critical slowing down
+prior to major financial crashes over the last century. However, all markets showed strong
+trends of rising variability, quantified by time series variance and spectral function at
+low frequencies, prior to crashes. These results suggest that financial crashes are not
+critical transitions that occur in the vicinity of a tipping point. Using a simple model, we
+argue that financial crashes are likely to be stochastic transitions which can occur even
+when the system is far away from the tipping point. Specifically, we show that a gradually
+increasing strength of stochastic perturbations may have caused to abrupt transitions in the
+financial markets. Broadly, our results highlight the importance of stochastically driven
+abrupt transitions in real world scenarios. Our study offers rising variability as a
+precursor of financial meltdowns albeit with a limitation that they may signal false alarms.
+</details>
 
-## Working in progress
+## Working papers
 
+- **Car replacement subsidies and the used car market**
+- **Imperfect competition and the adoption of clean technology: the case of CCS in cement**
+  — with Jean-Pierre Ponssard
+- **Closing the emission gap: EU CO2 standards and plug-in hybrid vehicles**
+  — with Ariane Bousquet and Maria-Eugenia Sanin
+- **Local electoral impacts of wind power in France**
+  — with Loïc Lebrec and Nicolas Hatem
 
-* *Disentangling abatement strategies of EU car manufacturers* | with Leo-Paul Kassab (Paris Dauphine)
+## Work in progress
 
-* *Chinese electric vehicles and EU tariff policy*
+- **Disentangling abatement strategies of EU car manufacturers** — with Léo-Paul Kassab (Paris Dauphine)
+- **Chinese electric vehicles and EU tariff policy**
+- **Local impacts of renewable energy on taxation**
 
-* *Local impacts of renewable energy on taxation*
+## PhD dissertation
 
+**Out with the pipes, in with the plugs: on the economics of the energy transition in the
+automobile sector**, 2020, Université Paris-Saclay.
+[[Full text](https://theses.hal.science/tel-03613962v1)]
+
+<details>
+<summary>Abstract</summary>
+The development of electric mobility is the main technological compromise that will allow
+the automobile sector to drastically reduce its emissions of greenhouse gases and air
+pollutants. From the ban of thermal vehicles to the integration of electric vehicles in the
+power sector, this dissertation investigates several economic aspects of this transition.
+First, it empirically studies the impacts of urban policies that limit the access of most
+polluting vehicles by analyzing the behavior of car sellers on second-hand markets. Then, it
+theoretically precises the optimal conditions of the electrification of the automobile fleet
+and how governments may plan support policies for electric vehicles that take into account
+their interaction with the power system. Third, it investigates the interaction between
+electric mobility and photovoltaic energy. It develops a systematic framework that
+enlightens technical and economic conditions of synergy. Fourth, it discusses the
+distributional effects from tariff design of power network with both distributed energy
+resources and electric mobility.
+</details>

@@ -1,25 +1,31 @@
 name: "quentinhoarau"
 title: "Quentin Hoarau"
-theme: postcards.css  # Ensure the correct path to this file
-author: Quentin Hoarau
+theme: postcards.css
+author: "Quentin Hoarau"
 description: |
-  Quentin Hoarau's personal website
-output_dir: "docs"  # Ensure GitHub Pages is set to use 'docs' as the source
-base_url: https://hoarauquentin.github.io/  # Adjust if necessary
-google_analytics: "G-5755VEJCBR"  # Replace with your actual Google Analytics ID
+  Quentin Hoarau is an assistant professor in environmental and energy economics
+  at Université Paris Nanterre (EconomiX). His research covers the energy transition
+  in the automobile sector, electric vehicles and renewable energy deployment.
+output_dir: "docs"
+base_url: https://hoarauquentin.github.io/
+google_analytics: "G-5755VEJCBR"
 creative_commons: CC BY
+favicon: images/photo_qh.jpg
+
+# Fichiers à copier tels quels dans docs/ (ceux commençant par . sont ignorés par défaut)
+include: [".nojekyll", "robots.txt"]
+
 navbar:
-  # logo: "one_up.png"  # Uncomment if needed and ensure the correct path
   right:
     - text: "About"
-      href: index.html  # Check the correct path
+      href: index.html
     - text: "Research"
-      href: research.html  # Check the correct path
+      href: research.html
     - text: "Teaching"
-      href: teaching.html  # Check the correct path
-    #- text: "CV"
-    #  href: "CV_quentinhoarau.pdf"  # Uncomment if needed
-  # source_url: https://github.com/quentinhoarau/  # Uncomment if you want a source link
+      href: teaching.html
   search: false
 
-output: distill::distill_article  # Ensure you're using the 'distill' package
+output:
+  distill::distill_article:
+    includes:
+      in_header: _header.html

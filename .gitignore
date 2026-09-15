@@ -2,3 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
+**/.DS_Store
+
+# Artefacts d'un knit isolé à la racine (le site se construit dans docs/)
+/site_libs/
+/index.html
+/research.html
+/teaching.html
+*_files/
+*.knit.md
+*.utf8.md
