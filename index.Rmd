@@ -1,9 +1,6 @@
 ---
 title: "Quentin Hoarau"
 description: |
-  Quentin Hoarau is an assistant professor in environmental and energy economics at
-  Université Paris Nanterre (EconomiX). His research studies the energy transition in
-  the automobile sector, electric vehicles, climate policy design and renewable energy.
 image: "images/photo_qh.jpg"
 site: distill::distill_website
 links:
@@ -26,7 +23,4 @@ Welcome to my website!
 I am an **assistant professor in economics** at Université Paris Nanterre and a member
 of [EconomiX](https://economix.fr/) (UMR 7235, CNRS).
 
-My research lies in **environmental and energy economics**. I study the economics of the
-energy transition in the **automobile sector** — electric vehicles, car purchase
-incentives and second-hand markets — as well as **climate policy design** and the local
-impacts of **renewable energy** deployment.
+My research lies in environmental and energy economics.
