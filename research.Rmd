@@ -1,9 +1,6 @@
 ---
 title: "Research"
 description: |
-  Publications and working papers by Quentin Hoarau on environmental and energy
-  economics: car feebates and second-hand markets, electric vehicles, battery
-  recycling, network tariffs, climate policy coordination and renewable energy.
 ---
 
 ## Publications

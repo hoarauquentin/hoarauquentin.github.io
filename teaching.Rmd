@@ -1,23 +1,20 @@
 ---
 title: "Teaching"
-description: |
-  Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec:
-  energy economics, resource economics, industrial organization, European economics
-  and econometrics.
+description:  
 ---
 
-I teach economics at **Université Paris Nanterre** and **CentraleSupélec**, mostly in the
-fields of energy, environment and industrial organization.
-
+ 
 ## Current teaching
 
 - **Research seminar on mobility** (M2) — Master EEET, CentraleSupélec
-- **Energy Economics** (M2) — Master OMERR, Université Paris Nanterre
 - **Resource Economics** (M1) — Master EEET, Université Paris Nanterre
-- **Industrial Organization** (M1) — Master EEET, Université Paris Nanterre
-- **European Economics** (L3) — Université Paris Nanterre
+- **Economics of Growth** (L3) — Université Paris Nanterre
+- **Geopolitics** (L2) — Université Paris Nanterre
 - **Tutorials in Econometrics and GIS** (L3) — Université Paris Nanterre
 
 ## Past teaching
 
 - **Social Protection** (M1) — Master ISEFAR, Université Paris Nanterre
+- **European Economics** (L3) — Université Paris Nanterre
+- **Industrial Organization** (M1) — Master EEET, Université Paris Nanterre
+- **Energy Economics** (M2) — Master OMERR, Université Paris Nanterre
