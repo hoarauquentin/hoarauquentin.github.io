@@ -1,6 +1,10 @@
 ---
 title: "Teaching"
 description:  
+output:
+  distill::distill_article:
+    includes:
+      in_header: _header_teaching.html
 ---
 
  

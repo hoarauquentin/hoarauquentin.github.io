@@ -90,7 +90,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Quentin Hoarau: Teaching</title>
 
-  <meta property="description" itemprop="description" content="Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec:&#10;energy economics, resource economics, industrial organization, European economics&#10;and econometrics."/>
 
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
   <link rel="icon" type="image/jpeg" href="images/photo_qh.jpg"/>
@@ -99,20 +98,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Quentin Hoarau: Teaching"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec:&#10;energy economics, resource economics, industrial organization, European economics&#10;and econometrics."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Quentin Hoarau"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Quentin Hoarau: Teaching"/>
-  <meta property="twitter:description" content="Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec:&#10;energy economics, resource economics, industrial organization, European economics&#10;and econometrics."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Teaching"]},{"type":"character","attributes":{},"value":["Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec:\nenergy economics, resource economics, industrial organization, European economics\nand econometrics."]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Teaching"]},{"type":"NULL"},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["includes"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["in_header"]}},"value":[{"type":"character","attributes":{},"value":["_header_teaching.html"]}]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1919,22 +1916,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
   </style>
-  <style type="text/css">/* base variables */
+  <style type="text/css">/* Thème du site — distill + postcards
+     Palette : une encre, un accent. Pour changer la couleur d'accent du site,
+     il suffit de modifier --accent et --accent-dark ci-dessous.              */
 
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
   @import url('https://fonts.googleapis.com/css2?family=Amiri');
   @import url('https://fonts.googleapis.com/css2?family=Bitter');
   @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+
+  :root {
+    --accent:      #31566f;          /* bleu ardoise : liens, puces, survol */
+    --accent-dark: #1f3b4e;
+    --rule:        #e3e3e0;          /* filets et séparateurs */
+    --ink-soft:    rgba(0, 0, 0, 0.55);
+  }
 
   html {
     /*-- Main font sizes --*/
@@ -1952,13 +1947,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    "Amiri", serif;
     --mono-font:       "DM Mono", monospace;
-    --body-font:       "Bitter", sans-serif;
+    --body-font:       "Bitter", serif;
     --navbar-font:     "Amiri", serif;
   }
-  .distill-article {
-    max-width: 1800px; /* Set the maximum width of the content */
-  }
 
+  .distill-article {
+    max-width: 1800px;
+  }
 
   /*-- ARTICLE METADATA --*/
   d-byline {
@@ -1983,36 +1978,88 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
+  /* Bandeau sobre : fond blanc et filet gris, plutôt qu'un aplat de couleur. */
 
   .distill-site-header {
-    --title-size:       21px;    
-    --text-color:       #0d0d0e; /* Light Blue Color */
-    --text-size:        21px;   /* Increase the text size */
-    --hover-color:      #177db4;
-    --bkgd-color:       #6895e8; /* Light Blue Background Color */
+    --title-size:       21px;
+    --text-color:       rgba(0, 0, 0, 0.75);
+    --text-size:        18px;
+    --hover-color:      var(--accent);
+    --bkgd-color:       #ffffff;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .distill-site-header .title {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
   }
 
   .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        21px;
-    --hover-color:      white;
-    --bkgd-color:       #0c9ce3;
+    --text-color:       var(--ink-soft);
+    --text-size:        15px;
+    --hover-color:      var(--accent);
+    --bkgd-color:       #ffffff;
+    border-top: 1px solid var(--rule);
   }
 
   /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
 
-  /* Change bullets */
+  /* Puces de liste */
   ul > li::marker {
     font-size: 1.125em;
-    color: #1e442d;
+    color: var(--accent);
   }
 
-  /* Change link appearance */
+  /* Liens d'article : soulignement discret qui se renforce au survol */
   d-article a {
-    border-bottom: 2px solid #bcc2d8;
+    color: var(--accent);
+    border-bottom: 1px solid var(--rule);
     text-decoration: none;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+
+  d-article a:hover {
+    color: var(--accent-dark);
+    border-bottom-color: var(--accent);
+  }
+
+  /*-- PAGE D'ACCUEIL (template postcards) --*/
+
+  /* La photo est en portrait (768x1024) : sans recadrage carré, la classe
+     .rounded-circle de Bootstrap produit une ellipse et non un cercle. */
+  img.rounded-circle {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center 22%;
+  }
+
+  /* Le bandeau de navigation décale le centrage vertical de postcards :
+     on retranche sa hauteur pour rééquilibrer la page. */
+  .container.min-vh-100,
+  .row.min-vh-100 {
+    min-height: calc(100vh - 70px) !important;
+  }
+
+  /* Liens et boutons de la page d'accueil */
+  .min-vh-100 a {
+    color: var(--accent);
+  }
+
+  .min-vh-100 .btn-outline-dark {
+    color: rgba(0, 0, 0, 0.75);
+    border-color: var(--rule);
+    transition: all 0.15s ease;
+  }
+
+  .min-vh-100 .btn-outline-dark:hover {
+    color: #ffffff;
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+
+  .min-vh-100 hr {
+    border-top-color: var(--rule);
   }</style>
   <style type="text/css">
   /* base style */
@@ -2243,6 +2290,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   gtag('config', 'G-5755VEJCBR');
   </script>
   <!--/radix_placeholder_site_in_header-->
+  <!-- Description pour les moteurs de recherche (voir _header_research.html). -->
+  <meta name="description" content="Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec: resource economics, economics of growth, geopolitics, econometrics and GIS, and a research seminar on mobility.">
+  <meta property="og:description" content="Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec: resource economics, economics of growth, geopolitics and econometrics.">
+  <meta name="twitter:description" content="Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec.">
 
 
 <link rel="canonical" href="https://hoarauquentin.github.io/teaching.html">
@@ -2253,7 +2304,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Teaching","description":"Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec:\nenergy economics, resource economics, industrial organization, European economics\nand econometrics.","authors":[]}
+{"title":"Teaching","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2280,27 +2331,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Courses taught by Quentin Hoarau at Université Paris Nanterre and CentraleSupélec:
-energy economics, resource economics, industrial organization, European economics
-and econometrics.</p></p>
+
 </div>
 
 
 <div class="d-article">
-<p>I teach economics at <strong>Université Paris Nanterre</strong> and <strong>CentraleSupélec</strong>, mostly in the
-fields of energy, environment and industrial organization.</p>
 <h2 id="current-teaching">Current teaching</h2>
 <ul>
 <li><strong>Research seminar on mobility</strong> (M2) — Master EEET, CentraleSupélec</li>
-<li><strong>Energy Economics</strong> (M2) — Master OMERR, Université Paris Nanterre</li>
 <li><strong>Resource Economics</strong> (M1) — Master EEET, Université Paris Nanterre</li>
-<li><strong>Industrial Organization</strong> (M1) — Master EEET, Université Paris Nanterre</li>
-<li><strong>European Economics</strong> (L3) — Université Paris Nanterre</li>
+<li><strong>Economics of Growth</strong> (L3) — Université Paris Nanterre</li>
+<li><strong>Geopolitics</strong> (L2) — Université Paris Nanterre</li>
 <li><strong>Tutorials in Econometrics and GIS</strong> (L3) — Université Paris Nanterre</li>
 </ul>
 <h2 id="past-teaching">Past teaching</h2>
 <ul>
 <li><strong>Social Protection</strong> (M1) — Master ISEFAR, Université Paris Nanterre</li>
+<li><strong>European Economics</strong> (L3) — Université Paris Nanterre</li>
+<li><strong>Industrial Organization</strong> (M1) — Master EEET, Université Paris Nanterre</li>
+<li><strong>Energy Economics</strong> (M2) — Master OMERR, Université Paris Nanterre</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

@@ -1,19 +1,17 @@
-/* base variables */
+/* Thème du site — distill + postcards
+   Palette : une encre, un accent. Pour changer la couleur d'accent du site,
+   il suffit de modifier --accent et --accent-dark ci-dessous.              */
 
-/* Edit the CSS properties in this file to create a custom
-   Distill theme. Only edit values in the right column
-   for each row; values shown are the CSS defaults.
-   To return any property to the default,
-   you may set its value to: unset
-   All rows must end with a semi-colon.                      */
-
-/* Optional: embed custom fonts here with `@import`          */
-/* This must remain at the top of this file.                 */
-/* Optional: embed custom fonts here with `@import`          */
-/* This must remain at the top of this file.                 */
 @import url('https://fonts.googleapis.com/css2?family=Amiri');
 @import url('https://fonts.googleapis.com/css2?family=Bitter');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+
+:root {
+  --accent:      #31566f;          /* bleu ardoise : liens, puces, survol */
+  --accent-dark: #1f3b4e;
+  --rule:        #e3e3e0;          /* filets et séparateurs */
+  --ink-soft:    rgba(0, 0, 0, 0.55);
+}
 
 html {
   /*-- Main font sizes --*/
@@ -31,13 +29,13 @@ html {
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    "Amiri", serif;
   --mono-font:       "DM Mono", monospace;
-  --body-font:       "Bitter", sans-serif;
+  --body-font:       "Bitter", serif;
   --navbar-font:     "Amiri", serif;
 }
-.distill-article {
-  max-width: 1800px; /* Set the maximum width of the content */
-}
 
+.distill-article {
+  max-width: 1800px;
+}
 
 /*-- ARTICLE METADATA --*/
 d-byline {
@@ -62,34 +60,86 @@ d-appendix {
 }
 
 /*-- WEBSITE HEADER + FOOTER --*/
-/* These properties only apply to Distill sites and blogs  */
+/* Bandeau sobre : fond blanc et filet gris, plutôt qu'un aplat de couleur. */
 
 .distill-site-header {
-  --title-size:       21px;    
-  --text-color:       #0d0d0e; /* Light Blue Color */
-  --text-size:        21px;   /* Increase the text size */
-  --hover-color:      #177db4;
-  --bkgd-color:       #6895e8; /* Light Blue Background Color */
+  --title-size:       21px;
+  --text-color:       rgba(0, 0, 0, 0.75);
+  --text-size:        18px;
+  --hover-color:      var(--accent);
+  --bkgd-color:       #ffffff;
+  border-bottom: 1px solid var(--rule);
+}
+
+.distill-site-header .title {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .distill-site-footer {
-  --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        21px;
-  --hover-color:      white;
-  --bkgd-color:       #0c9ce3;
+  --text-color:       var(--ink-soft);
+  --text-size:        15px;
+  --hover-color:      var(--accent);
+  --bkgd-color:       #ffffff;
+  border-top: 1px solid var(--rule);
 }
 
 /*-- Additional custom styles --*/
-/* Add any additional CSS rules below                      */
 
-/* Change bullets */
+/* Puces de liste */
 ul > li::marker {
   font-size: 1.125em;
-  color: #1e442d;
+  color: var(--accent);
 }
 
-/* Change link appearance */
+/* Liens d'article : soulignement discret qui se renforce au survol */
 d-article a {
-  border-bottom: 2px solid #bcc2d8;
+  color: var(--accent);
+  border-bottom: 1px solid var(--rule);
   text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+d-article a:hover {
+  color: var(--accent-dark);
+  border-bottom-color: var(--accent);
+}
+
+/*-- PAGE D'ACCUEIL (template postcards) --*/
+
+/* La photo est en portrait (768x1024) : sans recadrage carré, la classe
+   .rounded-circle de Bootstrap produit une ellipse et non un cercle. */
+img.rounded-circle {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: center 22%;
+}
+
+/* Le bandeau de navigation décale le centrage vertical de postcards :
+   on retranche sa hauteur pour rééquilibrer la page. */
+.container.min-vh-100,
+.row.min-vh-100 {
+  min-height: calc(100vh - 70px) !important;
+}
+
+/* Liens et boutons de la page d'accueil */
+.min-vh-100 a {
+  color: var(--accent);
+}
+
+.min-vh-100 .btn-outline-dark {
+  color: rgba(0, 0, 0, 0.75);
+  border-color: var(--rule);
+  transition: all 0.15s ease;
+}
+
+.min-vh-100 .btn-outline-dark:hover {
+  color: #ffffff;
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.min-vh-100 hr {
+  border-top-color: var(--rule);
 }

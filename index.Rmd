@@ -18,8 +18,6 @@ output:
       in_header: _header_home.html   # _header.html est déjà injecté par _site.yml
 ---
 
-Welcome to my website!
-
 I am an **assistant professor in economics** at Université Paris Nanterre and a member
 of [EconomiX](https://economix.fr/) (UMR 7235, CNRS).
 
